@@ -11,20 +11,19 @@
   <div class="container">
       <h2>Robogers Neighborhood</h2>
 
-    <form id="word-counter">
-      <div class="form-group">
-        <p>Input a number and get a return value</p>
-        <ul>
-          <li>Numbers that contain a 1, all digits are replaced with "Beep!"</li>
-          <li> Numbers that contain a 2, all digits are replaced with "Boop!"</li>
-          <li> Numbers that contain a 3: all digits are replaced with "Won't you be my neighbor?"</li>
-        </ul>
-        <input type="text" id="text-passage" name="text-passage" class="form-control">
-        <br>
-        <button type="submit" class="btn btn-success">Submit number</button>
+    <form>
+      <div class="form-box">
+        <label for ="number"> Original number</label>
+        <input type="number" id="number" />
       </div>
+    <div class ="form-box">
+      <button id = "btn"> push to add</button>
+
+
+    </div>
     </form>
-    <p>Robogers new number: <span id="total-count"></span></p>
+    <p>Robogers new number:</p>
+    <p id="PText"></p>
     <br>
   </div>
 </body>
